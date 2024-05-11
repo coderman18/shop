@@ -1,50 +1,38 @@
+import { getHeader } from './components/header.js';
+import {getPageContainer} from './components/pageContainer.js';
+// import {getMainTitle} from './components/mainTitle.js';
+// import {getDesc} from './components/desc.js';
+
+// страницы
+import { getMainPage } from './pages/mainPages.js';
+// import { getProductPage } from '../pages/product.js';
+import {getCatalogPage} from '../js/pages/catalog.js';
+import {getBasketPage} from '../js/pages/basket.js';
+
 const app = document.getElementById("app");
 
-// создаем шапку
-function getHeader() {
-  const header = document.createElement('header');
-  header.classList.add('header');
-
-  const container = document.createElement("div");
-  container.classList.add('container', 'header__container');
-
-  // создаем навигацию
-  const nav = document.createElement('nav');
-  nav.classList.add('navigation');
-
-  // создаем кнопки навигации
-  let link1 = document.createElement('a');
-  link1.href = "#";
-  link1.classList.add('btn');
-  link1.textContent = 'Главная страница';
-
-  let link2 = document.createElement('a');
-  link2.href = "#";
-  link2.classList.add('btn');
-  link2.textContent = 'Каталог';
-
-  let link3 = document.createElement('a');
-  link3.href = "#";
-  link3.classList.add('btn');
-  link3.textContent = 'Корзина';
-
-  // добавляем ссылки в контейнер
-  nav.append(link1, link2, link3);
-  container.append(nav);
-
-  header.append(container);
-  return header;
-}
-
-// main
-function getPageContainer() {
-  const main = document.createElement("main");
-  main.classList.add('page-container');
-
-  return main;
-}
-
 const header = getHeader();
-const main = getPageContainer();
+const pageContainer = getPageContainer();
 
-app.append(header, main);
+export function navigation(page) {
+  pageContainer.innerHTML = '';
+  switch (page) {
+    case 'catalog':
+      const catalogPage = getCatalogPage();
+      pageContainer.append(catalogPage);
+      break;
+    case 'basket':
+      const basketPage = getBasketPage();
+      pageContainer.append(basketPage);
+      break;
+    default:
+      const mainPage = getMainPage();
+      pageContainer.append(mainPage);
+      break;
+  }
+}
+
+navigation();
+
+app.append(header, pageContainer);
+
