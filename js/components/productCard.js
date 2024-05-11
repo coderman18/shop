@@ -1,12 +1,12 @@
 // карточки товара
 
-export function getProductCard(title, price) {
+export function getProductCard(title, price, img) {
   const item = document.createElement('li');
   item.classList.add('product-list__item');
 
-  // const img = document.createElement('img');
-  // img.classList.add('product-card__img');
-  // img.src = product.img;
+  const productImg = document.createElement('img');
+  productImg.classList.add('product-card__img');
+  productImg.src = '../../img/product-img/flower.jpg';
 
   const productTitle = document.createElement('h2');
   productTitle.classList.add('product-list__title');
@@ -20,6 +20,6 @@ export function getProductCard(title, price) {
   addBasket.classList.add('btn');
   addBasket.textContent = 'Добавить в корзину';
 
-  item.append(productTitle, productPrice, addBasket);
+  item.append(productImg, productTitle, productPrice, addBasket);
   return item;
 }

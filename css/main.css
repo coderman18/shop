@@ -44,8 +44,16 @@
   padding-bottom: 25px;
 }
 
+.product-card__img {
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+
+}
+
 /* описание */
 .desc {
   margin-top: 0;
   margin-bottom: 0;
 }
+
