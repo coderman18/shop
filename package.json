@@ -1,0 +1,16 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "internet store",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "author": "pavel ponomarev",
+  "license": "ISC",
+  "dependencies": {
+    "navigo": "^8.11.1",
+    "parcel": "^2.12.0"
+  }
+}
