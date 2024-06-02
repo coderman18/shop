@@ -1,0 +1,1 @@
+{"mappings":"AACA","sources":["src/js/components/mainTitle/mainTitle.css"],"sourcesContent":["/* главный заголовок */\r\n.main-title {\r\n  margin-top: 0;\r\n  margin-bottom: 20px;\r\n}"],"names":[],"version":3,"file":"notFound.56fd5e51.css.map","sourceRoot":"/__parcel_source_root/"}

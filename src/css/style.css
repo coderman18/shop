@@ -47,22 +47,7 @@ body {
   margin: 0 auto;
 }
 
-/* header */
-.header {
-  padding: 20px;
-  background-color: var(--white);
-  margin-bottom: 20px;
-  
-}
 
-/* навигация */
-.navigation {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 30px;
-}
 
 /* кнопки */
 .btn {

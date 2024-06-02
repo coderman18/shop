@@ -1,0 +1,28 @@
+.basket-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-radius: 0;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  transition: background-color .3s;
+}
+
+.basket-btn svg {
+  width: 25px;
+  height: 25px;
+  transition: fill .3s;
+}
+
+.basket-btn:hover {
+  background-color: orange;
+}
+
+.basket-btn.active  {
+  background-color: red;
+}
+
+.basket-btn:focus-visible {
+  background-color: bisque;
+}

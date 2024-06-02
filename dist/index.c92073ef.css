@@ -43,20 +43,6 @@ body {
   margin: 0 auto;
 }
 
-.header {
-  background-color: var(--white);
-  margin-bottom: 20px;
-  padding: 20px;
-}
-
-.navigation {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  display: flex;
-}
-
 .btn {
   color: var(--darkGray);
   cursor: pointer;

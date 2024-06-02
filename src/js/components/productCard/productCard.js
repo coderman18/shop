@@ -1,4 +1,5 @@
-import { router } from "../script";
+import { router } from "../../script";
+import './productCard.css';
 
 // карточки товара
 export function getProductCard(title, price, img) {

@@ -588,8 +588,8 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 // страница товара
 parcelHelpers.export(exports, "getProductPage", ()=>getProductPage);
-var _mainTitleJs = require("../components/mainTitle.js");
-var _descJs = require("../components/desc.js");
+var _mainTitleJs = require("/src/js/components/mainTitle/mainTitle.js");
+var _descJs = require("/src/js/components/desc/desc.js");
 function getProductPage(title) {
     const page = document.createElement("div");
     page.classList.add("page", "product-page", "container");
@@ -599,23 +599,12 @@ function getProductPage(title) {
     return page;
 }
 
-},{"../components/mainTitle.js":"1BNwr","../components/desc.js":"7kCFx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1BNwr":[function(require,module,exports) {
-// главный заголовок
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","/src/js/components/desc/desc.js":"2aBBT","/src/js/components/mainTitle/mainTitle.js":"ki5if"}],"2aBBT":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "getMainTitle", ()=>getMainTitle);
-function getMainTitle(text) {
-    const title = document.createElement("h1");
-    title.classList.add("main-title");
-    title.textContent = text;
-    return title;
-}
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7kCFx":[function(require,module,exports) {
 // создаем описание
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "getDesc", ()=>getDesc);
+var _descCss = require("./desc.css");
 function getDesc(text) {
     const desc = document.createElement("p");
     desc.classList.add("desc");
@@ -623,6 +612,19 @@ function getDesc(text) {
     return desc;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["7U11R"], null, "parcelRequire8cd9")
+},{"./desc.css":"kfYoF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kfYoF":[function() {},{}],"ki5if":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+// главный заголовок
+parcelHelpers.export(exports, "getMainTitle", ()=>getMainTitle);
+var _mainTitleCss = require("./mainTitle.css");
+function getMainTitle(text) {
+    const title = document.createElement("h1");
+    title.classList.add("main-title");
+    title.textContent = text;
+    return title;
+}
+
+},{"./mainTitle.css":"8xezA","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8xezA":[function() {},{}]},["7U11R"], null, "parcelRequire8cd9")
 
 //# sourceMappingURL=product.32ff8da9.js.map

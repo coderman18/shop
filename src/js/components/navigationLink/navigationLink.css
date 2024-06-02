@@ -1,0 +1,25 @@
+/* навигация */
+.navigation-link {
+  color: rgb(42, 42, 42);
+  background-color: transparent;
+  padding: 24px 30px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  transition: background-color .3s, color .3s;
+}
+
+.navigation-link.active {
+  color: white;
+  background-color: rgb(14, 74, 194);
+}
+
+.navigation-link:hover {
+  background-color: rgb(42, 113, 253);
+  color: var(--white);
+}
+
+.navigation-link:focus-visible {
+  background-color: rgb(220, 232, 255);
+}

@@ -1,0 +1,78 @@
+.header {
+  background-color: var(--white);
+  margin-bottom: 20px;
+}
+
+.header__container {
+  justify-content: space-between;
+  display: flex;
+}
+
+.header__navigation {
+  display: flex;
+}
+
+.logo {
+  cursor: pointer;
+  width: 50px;
+  padding-right: 10px;
+}
+
+.basket-btn {
+  cursor: pointer;
+  background-color: #0000;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  padding: 15px;
+  transition: background-color .3s;
+}
+
+.basket-btn svg {
+  width: 25px;
+  height: 25px;
+  transition: fill .3s;
+}
+
+.basket-btn:hover {
+  background-color: orange;
+}
+
+.basket-btn.active {
+  background-color: red;
+}
+
+.basket-btn:focus-visible {
+  background-color: bisque;
+}
+
+.navigation-link {
+  color: #2a2a2a;
+  background-color: #0000;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 24px 30px;
+  font-weight: bold;
+  transition: background-color .3s, color .3s;
+}
+
+.navigation-link.active {
+  color: #fff;
+  background-color: #0e4ac2;
+}
+
+.navigation-link:hover {
+  color: var(--white);
+  background-color: #2a71fd;
+}
+
+.navigation-link:focus-visible {
+  background-color: #dce8ff;
+}
+
+.page-container {
+  background-color: var(--white);
+  padding: 15px;
+}
+/*# sourceMappingURL=index.2212206d.css.map */

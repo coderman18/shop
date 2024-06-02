@@ -1,0 +1,34 @@
+/* список товаров */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* карточка товара */
+.product-list__item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.product-list__title {
+  margin-top: 0;
+  font-size: 26px;
+}
+
+.product-list__price {
+  font-size: 20px;
+  padding-bottom: 25px;
+}
+
+.product-card__img {
+  width: 300px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+

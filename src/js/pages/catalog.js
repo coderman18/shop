@@ -1,5 +1,5 @@
-import {getDesc} from '../components/desc.js';
-import {getMainTitle} from '../components/mainTitle.js';
+import {getDesc} from '/src/js/components/desc/desc.js';
+import {getMainTitle} from '/src/js/components/mainTitle/mainTitle.js';
 // каталог товаров
 export function getCatalogPage() {
   const page = document.createElement('div');

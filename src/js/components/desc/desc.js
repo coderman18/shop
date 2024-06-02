@@ -1,3 +1,5 @@
+import './desc.css';
+
 // создаем описание
 export function getDesc(text) {
   const desc = document.createElement('p');

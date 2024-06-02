@@ -588,22 +588,33 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 // корзина
 parcelHelpers.export(exports, "getBasketPage", ()=>getBasketPage);
-var _descJs = require("../components/desc.js");
-var _mainTitleJs = require("../components/mainTitle.js");
+var _scriptJs = require("../script.js");
+var _descJs = require("/src/js/components/desc/desc.js");
+var _mainTitleJs = require("/src/js/components/mainTitle/mainTitle.js");
 function getBasketPage() {
     const page = document.createElement("div");
     page.classList.add("page", "basket-page", "container");
     const mainTitle = (0, _mainTitleJs.getMainTitle)("\u041A\u043E\u0440\u0437\u0438\u043D\u0430");
     const desc = (0, _descJs.getDesc)("\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u043E\u0440\u0437\u0438\u043D\u044B");
-    page.append(mainTitle, desc);
+    // оформление заказа
+    let linkOrder = document.createElement("a");
+    linkOrder.href = "/order";
+    linkOrder.classList.add("btn");
+    linkOrder.textContent = "\u041E\u0444\u043E\u0440\u043C\u043B\u0435\u043D\u0438\u0435 \u0437\u0430\u043A\u0430\u0437\u0430";
+    linkOrder.addEventListener("click", function(event) {
+        event.preventDefault();
+        (0, _scriptJs.router).navigate("/order");
+    });
+    page.append(mainTitle, desc, linkOrder);
     return page;
 }
 
-},{"../components/desc.js":"7kCFx","../components/mainTitle.js":"1BNwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7kCFx":[function(require,module,exports) {
-// создаем описание
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../script.js":"dV6cC","/src/js/components/desc/desc.js":"2aBBT","/src/js/components/mainTitle/mainTitle.js":"ki5if"}],"2aBBT":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
+// создаем описание
 parcelHelpers.export(exports, "getDesc", ()=>getDesc);
+var _descCss = require("./desc.css");
 function getDesc(text) {
     const desc = document.createElement("p");
     desc.classList.add("desc");
@@ -611,11 +622,12 @@ function getDesc(text) {
     return desc;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1BNwr":[function(require,module,exports) {
-// главный заголовок
+},{"./desc.css":"kfYoF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kfYoF":[function() {},{}],"ki5if":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
+// главный заголовок
 parcelHelpers.export(exports, "getMainTitle", ()=>getMainTitle);
+var _mainTitleCss = require("./mainTitle.css");
 function getMainTitle(text) {
     const title = document.createElement("h1");
     title.classList.add("main-title");
@@ -623,6 +635,6 @@ function getMainTitle(text) {
     return title;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["dR5Sr"], null, "parcelRequire8cd9")
+},{"./mainTitle.css":"8xezA","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8xezA":[function() {},{}]},["dR5Sr"], null, "parcelRequire8cd9")
 
 //# sourceMappingURL=basket.690031ab.js.map

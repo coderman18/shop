@@ -1,8 +1,4 @@
-/* main */
-.page-container {
-  background-color: var(--white);
-  padding: 15px;
-}
+
 
 /* страница */
 .page {
@@ -11,11 +7,7 @@
   padding-bottom: 20px;
 }
 
-/* главный заголовок */
-.main-title {
-  margin-top: 0;
-  margin-bottom: 20px;
-}
+
 
 /* список товаров */
 .product-list {
@@ -50,9 +42,4 @@
   margin-bottom: 20px;
 }
 
-/* описание */
-.desc {
-  margin-top: 0;
-  margin-bottom: 0;
-}
 

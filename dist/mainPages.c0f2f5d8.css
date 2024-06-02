@@ -1,0 +1,36 @@
+.product-list {
+  flex-wrap: wrap;
+  gap: 20px;
+  display: flex;
+}
+
+.product-list__item {
+  border: 1px solid gray;
+  border-radius: 8px;
+  flex-direction: column;
+  margin-bottom: 10px;
+  padding: 20px;
+  display: flex;
+}
+
+.product-list__title {
+  margin-top: 0;
+  font-size: 26px;
+}
+
+.product-list__price {
+  padding-bottom: 25px;
+  font-size: 20px;
+}
+
+.product-card__img {
+  border-radius: 8px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.main-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=mainPages.c0f2f5d8.css.map */
