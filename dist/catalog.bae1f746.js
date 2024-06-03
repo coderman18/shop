@@ -588,31 +588,19 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 // каталог товаров
 parcelHelpers.export(exports, "getCatalogPage", ()=>getCatalogPage);
-var _descJs = require("/src/js/components/desc/desc.js");
 var _mainTitleJs = require("/src/js/components/mainTitle/mainTitle.js");
+var _productsListJs = require("/src/js/components/productsList/productsList.js");
 function getCatalogPage() {
     const page = document.createElement("div");
-    page.classList.add("page", "catalog-page", "container");
+    page.classList.add("page", "catalog-page");
     const mainTitle = (0, _mainTitleJs.getMainTitle)("\u041A\u0430\u0442\u0430\u043B\u043E\u0433 \u0442\u043E\u0432\u0430\u0440\u043E\u0432");
-    const desc = (0, _descJs.getDesc)("\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043A\u0430\u0442\u0430\u043B\u043E\u0433\u0430");
-    page.append(mainTitle, desc);
+    const product = (0, _productsListJs.getProductList)();
+    product.getProducts();
+    page.append(mainTitle, product.productsList);
     return page;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","/src/js/components/desc/desc.js":"2aBBT","/src/js/components/mainTitle/mainTitle.js":"ki5if"}],"2aBBT":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-// создаем описание
-parcelHelpers.export(exports, "getDesc", ()=>getDesc);
-var _descCss = require("./desc.css");
-function getDesc(text) {
-    const desc = document.createElement("p");
-    desc.classList.add("desc");
-    desc.textContent = text;
-    return desc;
-}
-
-},{"./desc.css":"kfYoF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kfYoF":[function() {},{}],"ki5if":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","/src/js/components/mainTitle/mainTitle.js":"ki5if","/src/js/components/productsList/productsList.js":"aAtZQ"}],"ki5if":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 // главный заголовок
@@ -625,6 +613,28 @@ function getMainTitle(text) {
     return title;
 }
 
-},{"./mainTitle.css":"8xezA","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8xezA":[function() {},{}]},["65cFM"], null, "parcelRequire8cd9")
+},{"./mainTitle.css":"8xezA","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8xezA":[function() {},{}],"aAtZQ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+// компонент списка товаров
+parcelHelpers.export(exports, "getProductList", ()=>getProductList);
+var _productsListCss = require("./productsList.css");
+function getProductList() {
+    const productsList = document.createElement("div");
+    productsList.classList.add("product-list");
+    const getProducts = async function(URI) {
+        // делаем запрос на сервер
+        const response = await fetch("https://petstore.swagger.io/v2/pet/findByStatus?status=available");
+        const data = await response.json();
+        for (const abc of data)console.log(abc);
+    };
+    // возвращаем обьект с данными и функцию getProducts
+    return {
+        productsList,
+        getProducts
+    };
+}
+
+},{"./productsList.css":"dMm9t","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dMm9t":[function() {},{}]},["65cFM"], null, "parcelRequire8cd9")
 
 //# sourceMappingURL=catalog.bae1f746.js.map

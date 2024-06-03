@@ -1,4 +1,4 @@
-6014
+6017
 123C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Block.js133606138455288533 0
 90C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\csso\node_modules\mdn-data\l10n\css.json133606138476095945 0
 67C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@msgpackr-extract133618202342169275 1
@@ -6,6 +6,7 @@
 118C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\function133606138676629698 1
 88C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-tree\lib\definition-syntax\walk.js133606138727102144 0
 56C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@lezer133606138196841547 1
+83C:\Users\Pavel\Desktop\dudukalo\shop\src\js\components\productsList\productsList.js133619248580104752 0
 69C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\svgo\lib\types.d.ts133606138584624602 0
 104C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\csso\node_modules\css-tree\lib\lexer\generic-urange.js133606138699766226 0
 81C:\Users\Pavel\Desktop\dudukalo\shop\src\js\components\productCard\productCard.js133618090692192423 0
@@ -17,7 +18,7 @@
 127C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\pseudo\nth-of-type.js133606138638246013 0
 99C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Doxyfile133606138473008225 0
 72C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-tree\cjs\index.cjs133606138605924810 0
-41C:\Users\Pavel\Desktop\dudukalo\shop\dist133618232138088792 1
+41C:\Users\Pavel\Desktop\dudukalo\shop\dist133619248583715551 1
 72C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\nth-check\lib\parse.js133606138395884002 0
 68C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\lmdb\src\lmdb-js.h133606138669031560 0
 80C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-what\lib\es\index.d.ts.map133606138466671844 0
@@ -109,7 +110,7 @@
 87C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\features\picture.js133606138807135090 0
 120C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeMetadata.js133606138588595237 0
 70C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\is-extglob\README.md133606138283789201 0
-54C:\Users\Pavel\Desktop\dudukalo\shop\src\js\components133618174056709510 1
+54C:\Users\Pavel\Desktop\dudukalo\shop\src\js\components133619168953532298 1
 74C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\nullthrows\nullthrows.js133606138362239104 0
 49C:\Users\Pavel\Desktop\dudukalo\shop\src\js\pages133618065823904960 1
 100C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\csso\node_modules\css-tree\cjs\lexer\structure.cjs133606138660781114 0
@@ -138,10 +139,18 @@
 114C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-select\node_modules\dom-serializer\lib\foreignNames.d.ts.map133606138451158109 0
 97C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\csso\lib\restructure\prepare\processSelector.js133606138637145793 0
 97C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\csso\node_modules\css-tree\lib\parser\create.js133606138681768590 0
-60C:\Users\Pavel\Desktop\dudukalo\shop\src\js\pages\catalog.js133618085274953236 0
+60C:\Users\Pavel\Desktop\dudukalo\shop\src\js\pages\catalog.js133619196142250304 0
 69C:\Users\Pavel\Desktop\dudukalo\shop\src\assets\img\logo\shopping.svg133618164312792974 0
 82C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\regenerator-runtime\package.json133606138362866954 0
 69C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\braces\lib\utils.js133606138457538444 0
+76C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\utility-types\CHANGELOG.md133606138463360217 0
+81C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\regions\KW.js133606138779180160 0
+71C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\base-x\src\index.d.ts133606138390964963 0
+89C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\node-gyp-build-optional-packages\bin.js133606138298840015 0
+129C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\definition-syntax\index.js133606138605120316 0
+67C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\commander\esm.mjs133606138403462028 0
+67C:\Users\Pavel\Desktop\dudukalo\shop\src\js\components\productsList133619169946131955 1
+91C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\cosmiconfig\dist\getPropertyByPath.js.map133606138523776719 0
 118C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\parser\index.js133606138609277579 0
 93C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\features\css-image-set.js133606138699641079 0
 73C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\js-yaml\lib\type\set.js133606138517489725 0
@@ -154,6 +163,7 @@
 125C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\lib\filesystem.js133606138366032315 0
 107C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\csso\node_modules\css-tree\cjs\tokenizer\adopt-buffer.cjs133606138314738693 0
 58C:\Users\Pavel\Desktop\dudukalo\shop\src\js\pages\order.js133618085907497634 0
+84C:\Users\Pavel\Desktop\dudukalo\shop\src\js\components\productsList\productsList.css133619170047235943 0
 57C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\timsort133606138399955902 1
 92C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\htmlnano\docs\versioned_docs\version-2.0.0133606138623787588 1
 80C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@swc\helpers\src\_to_array.mjs133606138770540018 0
@@ -227,8 +237,6 @@
 72C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\react-refresh\babel.js133606138305710490 0
 102C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\features\prefers-reduced-motion.js133606138807640228 0
 71C:\Users\Pavel\Desktop\dudukalo\shop\src\js\components\header\header.js133618222069780160 0
-100C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\dom-serializer\node_modules\entities\lib\encode.js133606138362896956 0
-61C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\ansi-styles133606138367609581 1
 68C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\.package-lock.json133618202353382149 0
 71C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@swc\counter\index.js133606138278201688 0
 98C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\bin133606138284039124 1
@@ -295,6 +303,8 @@
 85C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\type-fest\source\promise-value.d.ts133606138516775729 0
 74C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\abortcontroller-polyfill133606138475081124 1
 81C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\update-browserslist-db\utils.js133606138388841157 0
+100C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\dom-serializer\node_modules\entities\lib\encode.js133606138362896956 0
+61C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\ansi-styles133606138367609581 1
 99C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\reporter-dev-server\src\ServerReporter.js133606138524307552 0
 89C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-tree\cjs\syntax\node\Combinator.cjs133606138484324938 0
 107C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\csso\node_modules\css-tree\lib\syntax\atrule\font-face.js133606138698294663 0
@@ -373,11 +383,11 @@
 83C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\lmdb\dependencies\lz4\lib\lz4hc.h133606138675663183 0
 67C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\msgpackr\index.js133606138497120877 0
 61C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\cosmiconfig133606138572408807 1
-63C:\Users\Pavel\Desktop\dudukalo\shop\dist\index.e82f28a0.js.map133618231814535121 0
+63C:\Users\Pavel\Desktop\dudukalo\shop\dist\index.e82f28a0.js.map133619247826551658 0
 107C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\node-releases\data\release-schedule\release-schedule.json133606138386989412 0
 90C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\type-fest\source\conditional-except.d.ts133606138450295973 0
 90C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb133606138689931119 1
-64C:\Users\Pavel\Desktop\dudukalo\shop\dist\index.c92073ef.css.map133618231814535121 0
+64C:\Users\Pavel\Desktop\dudukalo\shop\dist\index.c92073ef.css.map133619247826601648 0
 71C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\domutils\lib\feeds.js133606138298557700 0
 60C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-select133606138609422301 1
 85C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\runtime-js\src\helpers\node133606138572276534 1
@@ -643,7 +653,7 @@
 71C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\source-map-js\LICENSE133606138272815767 0
 70C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\tslib\tslib.es6.html133606138273685588 0
 94C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\features\scrollintoview.js133606138809787402 0
-63C:\Users\Pavel\Desktop\dudukalo\shop\dist\notFound.56fd5e51.css133618231809349566 0
+63C:\Users\Pavel\Desktop\dudukalo\shop\dist\notFound.56fd5e51.css133619247826021642 0
 62C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\resolve-from133606138337064227 1
 92C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-tree\lib\syntax\function\expression.js133606138691360375 0
 84C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\domutils\lib\manipulation.d.ts.map133606138472135820 0
@@ -677,7 +687,7 @@
 94C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-svgo\node_modules\svgo\bin133606138284029124 1
 69C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-tree\lib\parser133606138721019908 1
 87C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\svgo\plugins\moveGroupAttrsToElems.js133606138620465827 0
-66C:\Users\Pavel\Desktop\dudukalo\shop\dist\notFound.4f16eca9.js.map133618231814485006 0
+66C:\Users\Pavel\Desktop\dudukalo\shop\dist\notFound.4f16eca9.js.map133619247826541639 0
 59C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\type-fest133606138479691489 1
 102C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\transformer-html\node_modules\srcset\license133606138278692268 0
 101C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_dump.c133606138589555565 0
@@ -726,10 +736,6 @@
 89C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\json-parse-even-better-errors\README.md133606138366543505 0
 79C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\weak-lru-cache\dist\index.cjs133606138276474933 0
 67C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\mdn-data\index.js133606138363950787 0
-76C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\utility-types\CHANGELOG.md133606138463360217 0
-81C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\regions\KW.js133606138779180160 0
-71C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\base-x\src\index.d.ts133606138390964963 0
-89C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\node-gyp-build-optional-packages\bin.js133606138298840015 0
 71C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\utility-types\LICENSE133606138273715581 0
 76C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\msgpackr\dist\index.min.js133606138502217316 0
 84C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\svgo\plugins\convertShapeToPath.js133606138608916387 0
@@ -1224,7 +1230,7 @@
 82C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\cosmiconfig\dist\Explorer.js.map133606138504560712 0
 111C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\CHANGELOG.md133606138679540221 0
 83C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\svgo\plugins\removeXMLProcInst.js133606138648415968 0
-60C:\Users\Pavel\Desktop\dudukalo\shop\dist\index.c92073ef.css133618231809339556 0
+60C:\Users\Pavel\Desktop\dudukalo\shop\dist\index.c92073ef.css133619247825691658 0
 77C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\svgo\plugins\_transforms.js133606138589600688 0
 90C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\features\webworkers.js133606138817885923 0
 83C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\postcss-value-parser\lib\parse.js133606138316355145 0
@@ -1233,9 +1239,9 @@
 77C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\supports-color\package.json133606138362938457 0
 70C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\color-name\README.md133606138362195640 0
 66C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\svgo\lib\path.js133606138538614081 0
-63C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\svgo\lib\svgo133606138580433159 1
 68C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\htmlnano\index.mjs133606138637693252 0
 81C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\posthtml-render\dist\index.d.ts133606138399672537 0
+63C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\svgo\lib\svgo133606138580433159 1
 86C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-tree\cjs\syntax\function\var.cjs133606138673656567 0
 111C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\prefixIds.js133606138565614827 0
 66C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\svgo\lib\svgo.js133606138565031746 0
@@ -1327,7 +1333,7 @@
 84C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\namer-default\package.json133606138381145192 0
 84C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\source-map-js\lib\binary-search.js133606138369940559 0
 72C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-tree\dist\data.cjs133606138530787773 0
-63C:\Users\Pavel\Desktop\dudukalo\shop\dist\order.16121d68.js.map133618231814485006 0
+63C:\Users\Pavel\Desktop\dudukalo\shop\dist\order.16121d68.js.map133619247826541639 0
 138C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors\filters.d.ts.map133606138485812952 0
 75C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\node-addon-api\LICENSE.md133606138509803885 0
 105C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-select\node_modules\dom-serializer\lib\esm\index.js133606138367581285 0
@@ -1343,9 +1349,9 @@
 78C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\navigo\lib\navigo.amd.min.js133607096138173293 0
 91C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\source-map-js\lib\source-map-generator.js133606138453949011 0
 105C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\csso\node_modules\css-tree\cjs\syntax\config\parser.cjs133606138643380488 0
-68C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\json5\lib\parse.js133606138394671359 0
 75C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\source-map-js\lib\util.js133606138468180745 0
 72C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\mdn-data\css\readme.md133606138525271611 0
+68C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\json5\lib\parse.js133606138394671359 0
 89C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-tree\lib\syntax\node\index-parse.js133606138701590607 0
 73C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\source-map\CHANGELOG.md133606138475131174 0
 102C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-select\lib\esm\pseudo-selectors\pseudos.d.ts.map133606138589931680 0
@@ -2287,7 +2293,7 @@
 70C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\json5\dist\index.mjs133606138480336975 0
 81C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\regions\LR.js133606138781165346 0
 92C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\json-parse-even-better-errors\CHANGELOG.md133606138312713502 0
-59C:\Users\Pavel\Desktop\dudukalo\shop\dist\index.e82f28a0.js133618231809339556 0
+59C:\Users\Pavel\Desktop\dudukalo\shop\dist\index.e82f28a0.js133619247825691658 0
 99C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\csso\node_modules\css-tree\lib\syntax\node\CDO.js133606138678935412 0
 78C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\domutils\lib\manipulation.js133606138390019122 0
 104C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-select\node_modules\entities\lib\esm\decode.js.map133606138543237314 0
@@ -2315,7 +2321,7 @@
 88C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\features\testfeat.js133606138812282827 0
 75C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\js-yaml\lib\type\merge.js133606138503971475 0
 74C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\js-yaml\lib\type\omap.js133606138509289878 0
-64C:\Users\Pavel\Desktop\dudukalo\shop\dist\index.2212206d.css.map133618232138068780 0
+64C:\Users\Pavel\Desktop\dudukalo\shop\dist\index.2212206d.css.map133619247826841638 0
 75C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\js-yaml\lib\type\pairs.js133606138511102344 0
 98C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@swc\helpers\src\_object_destructuring_empty.mjs133606138769330053 0
 73C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\js-yaml\lib\type\seq.js133606138514130238 0
@@ -2440,8 +2446,8 @@
 74C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-what\lib\es\parse.js133606138390964963 0
 71C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\htmlnano\package.json133606138596565802 0
 68C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\htmlnano\README.md133606138627572223 0
-69C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-tree\cjs\parser133606138667266656 1
 73C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\domutils\lib\index.d.ts133606138496223548 0
+69C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-tree\cjs\parser133606138667266656 1
 123C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\pseudo\common133606138666600439 1
 74C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\htmlnano\lib\helpers.cjs133606138459782989 0
 90C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-select\node_modules\domutils\lib\esm133606138605577760 1
@@ -2678,7 +2684,6 @@
 75C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\dotenv\lib\env-options.js133606138402667467 0
 66C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\domutils\LICENSE133606138273032600 0
 81C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\regions\IN.js133606138772071396 0
-87C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\workers\test\cpuCount.test.js133606138487884517 0
 102C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\rust\parcel-node-bindings.linux-x64-gnu.node133606138825118154 0
 73C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\domutils\lib\feeds.d.ts133606138488591807 0
 79C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\domutils\lib\helpers.d.ts.map133606138460780135 0
@@ -2919,7 +2924,7 @@
 99C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\csso\node_modules\css-tree\lib\syntax\node\CDC.js133606138678776576 0
 71C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-css133606138380815083 1
 109C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\csso\node_modules\css-tree\lib\syntax\node\ClassSelector.js133606138679681568 0
-64C:\Users\Pavel\Desktop\dudukalo\shop\dist\index.0898f127.css.map133618231814535121 0
+64C:\Users\Pavel\Desktop\dudukalo\shop\dist\index.0898f127.css.map133619247826531650 0
 93C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-tree\lib\definition-syntax\tokenizer.js133606138721521691 0
 103C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\csso\node_modules\css-tree\lib\syntax\node\Comment.js133606138679993380 0
 85C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\features\video.js133606138816094878 0
@@ -3192,7 +3197,7 @@
 101C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@babel\highlight\node_modules\color-convert\LICENSE133606138369817304 0
 94C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\csso\cjs\restructure\4-restructShorthand.cjs133606138386534216 0
 96C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-select\lib\pseudo-selectors\pseudos.js.map133606138592941117 0
-60C:\Users\Pavel\Desktop\dudukalo\shop\dist\index.34df27b5.css133618231809339556 0
+60C:\Users\Pavel\Desktop\dudukalo\shop\dist\index.34df27b5.css133619247825691658 0
 113C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\removeAttrs.js133606138571987734 0
 97C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-select\node_modules\domutils\lib\helpers.js133606138387920357 0
 92C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\csso\cjs\restructure\8-restructRuleset.cjs133606138406829753 0
@@ -3579,7 +3584,7 @@
 86C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\.bin\download-msgpackr-prebuilds.ps1133606138833466531 0
 119C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-select\node_modules\entities\lib\esm\generated\encode-html.js.map133606138562985250 0
 95C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-select\node_modules\domutils\lib\feeds.js133606138362253593 0
-64C:\Users\Pavel\Desktop\dudukalo\shop\dist\index.34df27b5.css.map133618231814535121 0
+64C:\Users\Pavel\Desktop\dudukalo\shop\dist\index.34df27b5.css.map133619247826581638 0
 101C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-select\node_modules\domutils\lib\helpers.js.map133606138512664770 0
 97C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-select\node_modules\domutils\lib\index.d.ts133606138592891112 0
 81C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\regions\GT.js133606138761346931 0
@@ -3760,7 +3765,7 @@
 98C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-select\lib\esm\pseudo-selectors\pseudos.d.ts133606138628608580 0
 96C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-select\lib\esm\pseudo-selectors\pseudos.js133606138486127070 0
 100C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-select\lib\esm\pseudo-selectors\pseudos.js.map133606138591446304 0
-52C:\Users\Pavel\Desktop\dudukalo\shop\dist\index.html133618231809319568 0
+52C:\Users\Pavel\Desktop\dudukalo\shop\dist\index.html133619247825691658 0
 93C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\workers\src\process\ProcessChild.js133606138523159467 0
 105C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\css-select\lib\esm\pseudo-selectors\subselects.d.ts.map133606138599931089 0
 100C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\features\wasm-reference-types.js133606138816735613 0
@@ -3790,9 +3795,6 @@
 81C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\regions\IM.js133606138769555737 0
 89C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\cosmiconfig\dist\getPropertyByPath.d.ts133606138588415244 0
 93C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\cosmiconfig\dist\getPropertyByPath.d.ts.map133606138521329714 0
-129C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\definition-syntax\index.js133606138605120316 0
-67C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\commander\esm.mjs133606138403462028 0
-91C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\cosmiconfig\dist\getPropertyByPath.js.map133606138523776719 0
 77C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\cosmiconfig\dist\index.d.ts133606138589490188 0
 81C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\cosmiconfig\dist\index.d.ts.map133606138527984424 0
 114C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\_collections.js133606138369857306 0
@@ -3900,7 +3902,7 @@
 85C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\regions\alt-as.js133606138497150883 0
 85C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\regions\alt-eu.js133606138501596651 0
 81C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\regions\VC.js133606138815854194 0
-61C:\Users\Pavel\Desktop\dudukalo\shop\dist\catalog.bae1f746.js133618231809329549 0
+61C:\Users\Pavel\Desktop\dudukalo\shop\dist\catalog.bae1f746.js133619248583465997 0
 84C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\runtime-service-worker\src133606138337986822 1
 85C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\regions\alt-na.js133606138504439957 0
 97C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\core\lib\requests\BundleGraphRequest.js133606138595009200 0
@@ -3926,7 +3928,7 @@
 118C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\sort.d.ts.map133606138506148373 0
 81C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\regions\BM.js133606138620593566 0
 81C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\regions\BN.js133606138621749366 0
-66C:\Users\Pavel\Desktop\dudukalo\shop\dist\product.0009d6e3.css.map133618231814535121 0
+66C:\Users\Pavel\Desktop\dudukalo\shop\dist\product.0009d6e3.css.map133619247826581638 0
 81C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\regions\BT.js133606138635738304 0
 81C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\regions\BW.js133606138637189820 0
 81C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\regions\BY.js133606138637758388 0
@@ -4000,7 +4002,7 @@
 81C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\regions\JO.js133606138776499862 0
 81C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\regions\KG.js133606138778053386 0
 81C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\regions\KH.js133606138778310461 0
-64C:\Users\Pavel\Desktop\dudukalo\shop\dist\order.7d41ea80.css.map133618231814535121 0
+64C:\Users\Pavel\Desktop\dudukalo\shop\dist\order.7d41ea80.css.map133619247826611638 0
 117C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\core\test\fixtures\config-extends-not-found\.parcelrc-json5133606138474056186 0
 81C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\regions\KI.js133606138778878653 0
 81C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\regions\KM.js133606138778898913 0
@@ -4430,7 +4432,7 @@
 65C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\.bin\parcel.ps1133606138833486525 0
 89C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\features\svg-fonts.js133606138811692817 0
 95C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\features\wasm-tail-calls.js133606138816895611 0
-60C:\Users\Pavel\Desktop\dudukalo\shop\dist\index.0898f127.css133618231809339556 0
+60C:\Users\Pavel\Desktop\dudukalo\shop\dist\index.0898f127.css133619247825681661 0
 92C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\features\svg-fragment.js133606138811722817 0
 88C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\features\svg-html.js133606138811762819 0
 110C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@swc\helpers\_\_object_without_properties_loose\package.json133606138737436267 0
@@ -4471,7 +4473,6 @@
 89C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\features\web-share.js133606138817215610 0
 86C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\features\webgpu.js133606138817470763 0
 96C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\features\webkit-user-drag.js133606138817580775 0
-69C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\workers\src133606138588976664 1
 84C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\features\webm.js133606138817630769 0
 93C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\workers\lib\threads\ThreadsChild.js133606138552633989 0
 86C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\features\webnfc.js133606138817665924 0
@@ -4482,7 +4483,7 @@
 85C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\features\woff2.js133606138818071062 0
 88C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\features\wordwrap.js133606138818151071 0
 95C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\features\x-doc-messaging.js133606138818291070 0
-60C:\Users\Pavel\Desktop\dudukalo\shop\dist\index.2212206d.css133618232137936922 0
+60C:\Users\Pavel\Desktop\dudukalo\shop\dist\index.2212206d.css133619247826031657 0
 123C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\transformer-react-refresh-wrap\lib\ReactRefreshWrapTransformer.js133606138390152149 0
 86C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@swc\helpers\cjs\_async_iterator.cjs133606138459672986 0
 95C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\caniuse-lite\data\features\x-frame-options.js133606138818376196 0
@@ -4843,7 +4844,9 @@
 78C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\transformer-posthtml133606138395150646 1
 63C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\types133606138401481933 1
 75C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\watcher-win32-x64133606138366288578 1
+69C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\workers\src133606138588976664 1
 70C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\workers\test133606138589961682 1
+87C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\workers\test\cpuCount.test.js133606138487884517 0
 101C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\workers\test\integration\workerfarm\echo.js133606138490558717 0
 79C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\transformer-image\lib133606138395150646 1
 114C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\workers\test\integration\workerfarm\master-process-id.js133606138512574762 0
@@ -5214,7 +5217,7 @@
 89C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\packager-raw\lib\RawPackager.js133606138312400087 0
 121C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\AnPlusB.js133606138364265171 0
 77C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\packager-js\LICENSE133606138278934981 0
-62C:\Users\Pavel\Desktop\dudukalo\shop\dist\product.0009d6e3.css133618231809349566 0
+62C:\Users\Pavel\Desktop\dudukalo\shop\dist\product.0009d6e3.css133619247825691658 0
 127C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\restructure\prepare\index.js133606138544656819 0
 82C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\packager-js\package.json133606138511003149 0
 82C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@mischnic\json-sourcemap\LICENSE133606138278431543 0
@@ -5246,7 +5249,7 @@
 78C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\cache\lib\types.d.ts133606138485421551 0
 95C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\package-manager\test\fixtures\has-foo133606138584614612 1
 96C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\package-manager\test\fixtures\packages133606138509472792 1
-63C:\Users\Pavel\Desktop\dudukalo\shop\dist\shopping.b40030bb.svg133618231809319568 0
+63C:\Users\Pavel\Desktop\dudukalo\shop\dist\shopping.b40030bb.svg133619247825681661 0
 104C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\package-manager\test\fixtures\packages\foo-2.0133606138586156036 1
 102C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\package-manager\test\fixtures\packages\peers133606138587149515 1
 106C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\package-manager\test\fixtures\packages\peers-2.0133606138586682395 1
@@ -5630,7 +5633,7 @@
 128C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\MediaQuery.js133606138634452372 0
 132C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\MediaQueryList.js133606138635117650 0
 124C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Number.js133606138644792195 0
-65C:\Users\Pavel\Desktop\dudukalo\shop\dist\product.32ff8da9.js.map133618231814485006 0
+65C:\Users\Pavel\Desktop\dudukalo\shop\dist\product.32ff8da9.js.map133619247826551658 0
 126C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Operator.js133606138645560893 0
 128C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Percentage.js133606138655056446 0
 75C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\markdown-ansi\src133606138337518991 1
@@ -5682,7 +5685,7 @@
 113C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\types.js133606138470549908 0
 134C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors\aliases.d.ts133606138513926606 0
 132C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors\aliases.js133606138304491379 0
-59C:\Users\Pavel\Desktop\dudukalo\shop\dist\order.16121d68.js133618231809329549 0
+59C:\Users\Pavel\Desktop\dudukalo\shop\dist\order.16121d68.js133619247825681661 0
 134C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors\filters.d.ts133606138522218856 0
 132C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors\index.d.ts133606138534125256 0
 136C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors\index.d.ts.map133606138497468594 0
@@ -5998,18 +6001,18 @@
 63C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\.bin\svgo.cmd133606138833496530 0
 63C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\.bin\svgo.ps1133606138833496530 0
 81C:\Users\Pavel\Desktop\dudukalo\shop\node_modules\.bin\update-browserslist-db.ps1133606138833536532 0
-67C:\Users\Pavel\Desktop\dudukalo\shop\dist\mainPages.1426b0fc.js.map133618231814485006 0
-63C:\Users\Pavel\Desktop\dudukalo\shop\dist\mainPages.1426b0fc.js133618231809329549 0
-61C:\Users\Pavel\Desktop\dudukalo\shop\dist\product.32ff8da9.js133618231809329549 0
-60C:\Users\Pavel\Desktop\dudukalo\shop\dist\basket.690031ab.js133618231809329549 0
-62C:\Users\Pavel\Desktop\dudukalo\shop\dist\notFound.4f16eca9.js133618231809339556 0
-62C:\Users\Pavel\Desktop\dudukalo\shop\dist\catalog.f682593a.css133618231809339556 0
-61C:\Users\Pavel\Desktop\dudukalo\shop\dist\basket.45fcb16d.css133618231809349566 0
-60C:\Users\Pavel\Desktop\dudukalo\shop\dist\order.7d41ea80.css133618231809349566 0
-64C:\Users\Pavel\Desktop\dudukalo\shop\dist\mainPages.c0f2f5d8.css133618231809349566 0
-65C:\Users\Pavel\Desktop\dudukalo\shop\dist\catalog.bae1f746.js.map133618231814485006 0
-64C:\Users\Pavel\Desktop\dudukalo\shop\dist\basket.690031ab.js.map133618231814485006 0
-66C:\Users\Pavel\Desktop\dudukalo\shop\dist\catalog.f682593a.css.map133618231814535121 0
-65C:\Users\Pavel\Desktop\dudukalo\shop\dist\basket.45fcb16d.css.map133618231814535121 0
-67C:\Users\Pavel\Desktop\dudukalo\shop\dist\notFound.56fd5e51.css.map133618231814550263 0
-68C:\Users\Pavel\Desktop\dudukalo\shop\dist\mainPages.c0f2f5d8.css.map133618231814570938 0
+60C:\Users\Pavel\Desktop\dudukalo\shop\dist\basket.690031ab.js133619247825681661 0
+62C:\Users\Pavel\Desktop\dudukalo\shop\dist\notFound.4f16eca9.js133619247825691658 0
+61C:\Users\Pavel\Desktop\dudukalo\shop\dist\product.32ff8da9.js133619247825681661 0
+64C:\Users\Pavel\Desktop\dudukalo\shop\dist\mainPages.c0f2f5d8.css133619247825691658 0
+62C:\Users\Pavel\Desktop\dudukalo\shop\dist\catalog.f682593a.css133619247825691658 0
+61C:\Users\Pavel\Desktop\dudukalo\shop\dist\basket.45fcb16d.css133619247825691658 0
+60C:\Users\Pavel\Desktop\dudukalo\shop\dist\order.7d41ea80.css133619247825691658 0
+63C:\Users\Pavel\Desktop\dudukalo\shop\dist\mainPages.1426b0fc.js133619247825681661 0
+64C:\Users\Pavel\Desktop\dudukalo\shop\dist\basket.690031ab.js.map133619247826521632 0
+68C:\Users\Pavel\Desktop\dudukalo\shop\dist\mainPages.c0f2f5d8.css.map133619247826581638 0
+65C:\Users\Pavel\Desktop\dudukalo\shop\dist\basket.45fcb16d.css.map133619247826581638 0
+66C:\Users\Pavel\Desktop\dudukalo\shop\dist\catalog.f682593a.css.map133619247826581638 0
+67C:\Users\Pavel\Desktop\dudukalo\shop\dist\mainPages.1426b0fc.js.map133619247826631652 0
+67C:\Users\Pavel\Desktop\dudukalo\shop\dist\notFound.56fd5e51.css.map133619247826831634 0
+65C:\Users\Pavel\Desktop\dudukalo\shop\dist\catalog.bae1f746.js.map133619248583644390 0
