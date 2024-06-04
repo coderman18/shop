@@ -6,29 +6,33 @@
 }
 
 /* карточка товара */
-.product-list__item {
+.product {
   display: flex;
   flex-direction: column;
   border: 1px solid gray;
-  border-radius: 8px;
+  border-radius: 20px;
   padding: 20px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
-.product-list__title {
+.product__title {
   margin-top: 0;
-  font-size: 26px;
+  font-size: 22px;
 }
 
-.product-list__price {
-  font-size: 20px;
-  padding-bottom: 25px;
+.product__price {
+  font-size: 18px;
+  padding-bottom: 15px;
 }
 
 .product-card__img {
-  width: 300px;
+  width: 100%;
   border-radius: 8px;
   margin-bottom: 20px;
+}
+
+.product__add-basket {
+  margin-top: auto;
 }
 
 

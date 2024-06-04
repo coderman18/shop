@@ -1,5 +1,6 @@
 import {getMainTitle} from '/src/js/components/mainTitle/mainTitle.js';
-import {getProductCard} from '/src/js/components/productCard/productCard.js';
+import {getProductList} from '/src/js/components/productsList/productsList.js';
+import { URL } from '/src/js/config.js';
 
 // главная страница
 export function getMainPage() {
@@ -7,15 +8,11 @@ export function getMainPage() {
   page.classList.add('main-page', 'page', 'container');
 
   const mainTitle = getMainTitle('Главная страница');
-  const list = document.createElement('ul');
-  list.classList.add('product-list', 'list-reset');
 
-  list.append(
-    getProductCard('Товар_1', 1000), 
-    getProductCard('Товар_2', 2000), 
-    getProductCard('Товар_3', 3000)
-    );
-  page.append( mainTitle, list);
+  const product = getProductList();
+  product.getProducts(`${URL}/posts?userId=2`)
+  
+  page.append( mainTitle, product.productsList );
 
   return page;
 }

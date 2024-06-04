@@ -2,34 +2,34 @@ import { router } from "../../script";
 import './productCard.css';
 
 // карточки товара
-export function getProductCard(title, price, img) {
+export function getProductCard(product) {
   const item = document.createElement('li');
-  item.classList.add('product-list__item');
+  item.classList.add('product');
 
   const productImg = document.createElement('img');
   productImg.classList.add('product-card__img');
-  productImg.src = '../../img/product-img/flower.jpg';
+  productImg.src = product.thumbnailUrl;
 
   const productTitle = document.createElement('h2');
-  productTitle.classList.add('product-list__title');
+  productTitle.classList.add('product__title');
   
   let productLink = document.createElement('a')
-  productLink.textContent = title;
+  productLink.textContent = product.title;
   productLink.href = "";
   
   productLink.addEventListener('click', function (e) {
     e.preventDefault();
-    router.navigate(`/product/${title}`);
+    router.navigate(`/product/${product.id}`);
   });
 
   productTitle.append(productLink)
 
   const productPrice = document.createElement('strong');
-  productPrice.classList.add('product-list__price');
-  productPrice.textContent = `${price} руб`;
+  productPrice.classList.add('product__price');
+  productPrice.textContent = `${product.albumId} руб`;
 
   const addBasket = document.createElement('button');
-  addBasket.classList.add('btn');
+  addBasket.classList.add('btn', 'product__add-basket');
   addBasket.textContent = 'Добавить в корзину';
 
   item.append(productImg, productTitle, productPrice, addBasket);

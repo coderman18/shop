@@ -590,17 +590,18 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "getCatalogPage", ()=>getCatalogPage);
 var _mainTitleJs = require("/src/js/components/mainTitle/mainTitle.js");
 var _productsListJs = require("/src/js/components/productsList/productsList.js");
+var _configJs = require("/src/js/config.js");
 function getCatalogPage() {
     const page = document.createElement("div");
     page.classList.add("page", "catalog-page");
     const mainTitle = (0, _mainTitleJs.getMainTitle)("\u041A\u0430\u0442\u0430\u043B\u043E\u0433 \u0442\u043E\u0432\u0430\u0440\u043E\u0432");
     const product = (0, _productsListJs.getProductList)();
-    product.getProducts();
+    product.getProducts(`${(0, _configJs.URL)}/posts`);
     page.append(mainTitle, product.productsList);
     return page;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","/src/js/components/mainTitle/mainTitle.js":"ki5if","/src/js/components/productsList/productsList.js":"aAtZQ"}],"ki5if":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","/src/js/components/mainTitle/mainTitle.js":"ki5if","/src/js/components/productsList/productsList.js":"aAtZQ","/src/js/config.js":"k5Hzs"}],"ki5if":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 // главный заголовок
@@ -618,15 +619,33 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 // компонент списка товаров
 parcelHelpers.export(exports, "getProductList", ()=>getProductList);
+var _productCardJs = require("/src/js/components/productCard/productCard.js");
 var _productsListCss = require("./productsList.css");
 function getProductList() {
     const productsList = document.createElement("div");
     productsList.classList.add("product-list");
     const getProducts = async function(URI) {
-        // делаем запрос на сервер
-        const response = await fetch("https://petstore.swagger.io/v2/pet/findByStatus?status=available");
-        const data = await response.json();
-        for (const abc of data)console.log(abc);
+        try {
+            // делаем запрос на сервер
+            const response = await fetch(URI);
+            if (!response.ok) throw new Error("\u0418\u0437\u0432\u0438\u043D\u0438\u0442\u0435, \u043D\u0430 \u0441\u0430\u0439\u0442\u0435 \u043F\u0440\u043E\u0432\u043E\u0434\u044F\u0442\u0441\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0435 \u0440\u0430\u0431\u043E\u0442\u044B!)");
+            if (response.status === 404) throw new Error("\u042D\u0442\u043E \u043D\u0435 \u043D\u0430\u0448 \u043A\u043E\u0441\u044F\u043A... \u044D\u0442\u043E \u0443 \u043D\u0438\u0445 \u0442\u0430\u043C!");
+            const data = await response.json();
+            const list = document.createElement("ul");
+            list.classList.add("product-list__list");
+            // создаем карточку товара
+            for (const product of data){
+                console.log(product);
+                const productCard = (0, _productCardJs.getProductCard)(product);
+                list.append(productCard);
+            }
+            productsList.append(list);
+        } catch (error) {
+            const msg = document.createElement("span");
+            msg.classList.add("error-msg");
+            msg.textContent = error.message;
+            productsList.append(msg);
+        }
     };
     // возвращаем обьект с данными и функцию getProducts
     return {
@@ -635,6 +654,45 @@ function getProductList() {
     };
 }
 
-},{"./productsList.css":"dMm9t","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dMm9t":[function() {},{}]},["65cFM"], null, "parcelRequire8cd9")
+},{"./productsList.css":"dMm9t","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","/src/js/components/productCard/productCard.js":"9WzTu"}],"dMm9t":[function() {},{}],"9WzTu":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+// карточки товара
+parcelHelpers.export(exports, "getProductCard", ()=>getProductCard);
+var _script = require("../../script");
+var _productCardCss = require("./productCard.css");
+function getProductCard(product) {
+    const item = document.createElement("li");
+    item.classList.add("product");
+    const productImg = document.createElement("img");
+    productImg.classList.add("product-card__img");
+    productImg.src = product.thumbnailUrl;
+    const productTitle = document.createElement("h2");
+    productTitle.classList.add("product__title");
+    let productLink = document.createElement("a");
+    productLink.textContent = product.title;
+    productLink.href = "";
+    productLink.addEventListener("click", function(e) {
+        e.preventDefault();
+        (0, _script.router).navigate(`/product/${product.id}`);
+    });
+    productTitle.append(productLink);
+    const productPrice = document.createElement("strong");
+    productPrice.classList.add("product__price");
+    productPrice.textContent = `${product.albumId} \u{440}\u{443}\u{431}`;
+    const addBasket = document.createElement("button");
+    addBasket.classList.add("btn", "product__add-basket");
+    addBasket.textContent = "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u0432 \u043A\u043E\u0440\u0437\u0438\u043D\u0443";
+    item.append(productImg, productTitle, productPrice, addBasket);
+    return item;
+}
+
+},{"../../script":"dV6cC","./productCard.css":"8FtH3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8FtH3":[function() {},{}],"k5Hzs":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "URL", ()=>URL);
+const URL = "https://jsonplaceholder.typicode.com";
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["65cFM"], null, "parcelRequire8cd9")
 
 //# sourceMappingURL=catalog.bae1f746.js.map
